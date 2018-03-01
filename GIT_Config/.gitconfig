@@ -1,0 +1,21 @@
+[user]
+        name = Rogelio Ventura
+        email = rogeliovr94@gmail.com
+[alias]
+        short = log --oneline
+        superlog = log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+        refhub = fetch origin
+        fushub = merge origin/master
+        uphub = push origin master
+        work = !git add -A && git commit
+        todos = config --get-regexp alias
+        upstm = remote add upstream
+        refhubup = fetch upstream
+        fushubup = merge upstream/master
+        addremote = remote add origin
+        addupstream = remote add upstream
+        upbranch = push origin
+        refreshhub = pull origin master
+        refbranch = pull origin
+        upall = push --all -u
+
